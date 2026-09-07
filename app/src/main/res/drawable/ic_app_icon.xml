@@ -1,0 +1,135 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Background -->
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="0"
+                android:gradientRadius="108"
+                android:startX="54"
+                android:startY="0"
+                android:endX="54"
+                android:endY="108">
+                <item android:offset="0.0" android:color="#FF334155" />
+                <item android:offset="1.0" android:color="#FF0F172A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Content Group -->
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:translateX="10.8"
+        android:translateY="10.8">
+
+        <!-- Document Drop Shadow -->
+        <path
+            android:fillColor="#40000000"
+            android:pathData="M30,24h48a8,8 0,0 1 8,8v52a8,8 0,0 1 -8,8h-48a8,8 0,0 1 -8,-8v-52a8,8 0,0 1 8,-8z" />
+
+        <!-- Document Base -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,20h48a8,8 0,0 1 8,8v52a8,8 0,0 1 -8,8h-48a8,8 0,0 1 -8,-8v-52a8,8 0,0 1 8,-8z" />
+
+        <!-- Document Header (Markdown Indigo) -->
+        <path
+            android:fillColor="#6366F1"
+            android:pathData="M22,28a8,8 0,0 1 8,-8h48a8,8 0,0 1 8,8v14h-64z" />
+
+        <!-- Markdown Header Logo: 'M' -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M42,36V26l5,5l5,-5v10" />
+
+        <!-- Markdown Header Logo: Down Arrow -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M62,26v10M58,32l4,4l4,-4" />
+
+        <!-- Cascading Checklist (Hierarchy Lines) -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#94A3B8"
+            android:strokeWidth="2"
+            android:strokeLineJoin="round"
+            android:pathData="M32,56v8h6" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#94A3B8"
+            android:strokeWidth="2"
+            android:strokeLineJoin="round"
+            android:pathData="M42,68v8h6" />
+
+        <!-- Checkbox Backgrounds -->
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M30,48h4a2,2 0,0 1 2,2v4a2,2 0,0 1 -2,2h-4a2,2 0,0 1 -2,-2v-4a2,2 0,0 1 2,-2z" />
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M40,60h4a2,2 0,0 1 2,2v4a2,2 0,0 1 -2,2h-4a2,2 0,0 1 -2,-2v-4a2,2 0,0 1 2,-2z" />
+        <path
+            android:fillColor="#10B981"
+            android:pathData="M50,72h4a2,2 0,0 1 2,2v4a2,2 0,0 1 -2,2h-4a2,2 0,0 1 -2,-2v-4a2,2 0,0 1 2,-2z" />
+
+        <!-- Checkmarks -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M29.5,52l1.5,1.5l3.5,-3.5" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M39.5,64l1.5,1.5l3.5,-3.5" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M49.5,76l1.5,1.5l3.5,-3.5" />
+
+        <!-- Text Lines -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#CBD5E1"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M42,52h34" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#CBD5E1"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M52,64h24" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#CBD5E1"
+            android:strokeWidth="4"
+            android:strokeLineCap="round"
+            android:pathData="M62,76h14" />
+    </group>
+</vector>

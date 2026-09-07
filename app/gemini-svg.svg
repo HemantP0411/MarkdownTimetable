@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-grad" cx="50%" cy="0%" r="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </radialGradient>
+  </defs>
+
+  <!-- Outer Background -->
+  <rect width="108" height="108" fill="url(#bg-grad)" />
+
+  <!-- Content Group (Scaled to 80% to fit perfectly inside the Android Circular/Squircle Safe Zone) -->
+  <g transform="translate(10.8, 10.8) scale(0.8)">
+    
+    <!-- Document Drop Shadow -->
+    <rect x="22" y="24" width="64" height="68" rx="8" fill="#000000" opacity="0.25" />
+    
+    <!-- Document Base -->
+    <rect x="22" y="20" width="64" height="68" rx="8" fill="#FFFFFF" />
+
+    <!-- Document Header (Markdown Indigo) -->
+    <path d="M22 28 a8 8 0 0 1 8 -8 h48 a8 8 0 0 1 8 8 v14 H22 Z" fill="#6366F1" />
+
+    <!-- Markdown Header Logo -->
+    <!-- 'M' -->
+    <path d="M42 36 V26 l5 5 l5 -5 v10" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <!-- Down Arrow -->
+    <path d="M62 26 V36 M58 32 l4 4 l4 -4" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Cascading Checklist (Hierarchy Lines) -->
+    <path d="M 32 56 V 64 H 38" stroke="#94A3B8" stroke-width="2" fill="none" stroke-linejoin="round" />
+    <path d="M 42 68 V 76 H 48" stroke="#94A3B8" stroke-width="2" fill="none" stroke-linejoin="round" />
+
+    <!-- Checkbox Backgrounds (Done State) -->
+    <rect x="28" y="48" width="8" height="8" rx="2" fill="#10B981" />
+    <rect x="38" y="60" width="8" height="8" rx="2" fill="#10B981" />
+    <rect x="48" y="72" width="8" height="8" rx="2" fill="#10B981" />
+
+    <!-- Checkmarks -->
+    <path d="M 29.5 52 l 1.5 1.5 l 3.5 -3.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 39.5 64 l 1.5 1.5 l 3.5 -3.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 49.5 76 l 1.5 1.5 l 3.5 -3.5" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Text Lines (Cascading Indentation) -->
+    <line x1="42" y1="52" x2="76" y2="52" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" />
+    <line x1="52" y1="64" x2="76" y2="64" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" />
+    <line x1="62" y1="76" x2="76" y2="76" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" />
+  </g>
+</svg>
