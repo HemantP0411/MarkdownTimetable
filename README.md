@@ -1,5 +1,7 @@
 # Markdown Timetable 📅
 
+Fully made using AI. This line and the prompts are my only contributions.😶‍🌫️
+
 A modern, native Android application built with **Kotlin** and **Jetpack Compose** that parses raw Markdown files or text into a hierarchical, interactive study and task timetable with cascading completion tracking, exact alarms with custom sounds, snooze notifications, and local device persistence.
 
 ---
@@ -148,57 +150,3 @@ com.example.markdowntimetable
 5. User taps **Snooze** -> `SnoozeReceiver` dismisses active notification and sets a new alarm for 15 minutes later.
 
 ---
-
-## 🚀 How to Push This Project to GitHub
-
-Follow these steps to initialize Git and push this repository to GitHub:
-
-### Step 1: Open Terminal / PowerShell in Project Root
-```powershell
-cd D:\Users\heman\AndroidStudioProjects\MarkdownTimetable
-```
-
-### Step 2: Initialize Git Repository
-```powershell
-git init
-```
-
-### Step 3: Create `.gitignore` File
-Ensure build artifacts and local IDE files are excluded:
-```gitignore
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-```
-
-### Step 4: Stage & Commit Files
-```powershell
-git add .
-git commit -m "Initial commit: Complete Markdown Timetable app with Compose, Alarms, Multi-Timetables, and Snooze"
-```
-
-### Step 5: Create Repository on GitHub
-1. Go to [GitHub.com](https://github.com) -> Click **New Repository**.
-2. Name it `MarkdownTimetable`.
-3. Do **not** check "Initialize with README" (since we already have one).
-4. Click **Create repository**.
-
-### Step 6: Link Remote & Push
-Replace `YOUR_USERNAME` with your actual GitHub username:
-```powershell
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/MarkdownTimetable.git
-git push -u origin main
-```
